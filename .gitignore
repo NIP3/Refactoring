@@ -4,3 +4,17 @@
 
 *.vspscc
 *.vssscc
+/PKW.App/bin/Debug
+/PKW.App/obj/Debug
+/PKW.App.IntegrationTests/bin/Debug
+/PKW.App.IntegrationTests/obj/Debug
+/PKW.App.UnitTests/bin/Debug
+/PKW.App.UnitTests/obj/Debug
+/PKW.Contracts/bin/Debug
+/PKW.Contracts/obj/Debug
+/PKW.ControlCenter/bin
+/PKW.ControlCenter/obj/Debug
+/PKW.UITests/bin/Debug
+/PKW.UITests/obj/Debug
+/VotingService.Test/bin/Debug
+/VotingService.Test/obj/Debug
