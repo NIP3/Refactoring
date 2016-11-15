@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKW.UITests", "PKW.UITests\PKW.UITests.csproj", "{B897EBB6-E19C-4799-A82B-19B2A4597EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKW.Contracts", "PKW.Contracts\PKW.Contracts.csproj", "{661B6C2F-EEB3-4F2F-82B8-7BD70BB224AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKW.App", "PKW.App\PKW.App.csproj", "{77306654-ABF7-49B1-9098-C926A307BF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKW.ControlCenter", "PKW.ControlCenter\PKW.ControlCenter.csproj", "{E87F59E5-FE03-417F-8452-A0A66A085D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKW.ControlCenter.UnitTests", "VotingService.Test\PKW.ControlCenter.UnitTests.csproj", "{08B30439-2226-4AEC-8085-FDD17E3404C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKW.App.UnitTests", "PKW.App.UnitTests\PKW.App.UnitTests.csproj", "{13A22B42-CD32-42AF-A157-EE983A3EB5C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PKW.App.IntegrationTests", "PKW.App.IntegrationTests\PKW.App.IntegrationTests.csproj", "{5E3AD2C6-BAA9-43DD-9617-3B671D5259DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4C11A010-9CE5-4D25-B2EA-B49705CFB3BF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/krollontrack
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PKW.UITests\\PKW.UITests.csproj
+		SccProjectName1 = PKW.UITests
+		SccLocalPath1 = PKW.UITests
+		SccProjectUniqueName2 = PKW.Contracts\\PKW.Contracts.csproj
+		SccProjectName2 = PKW.Contracts
+		SccLocalPath2 = PKW.Contracts
+		SccProjectUniqueName3 = PKW.App\\PKW.App.csproj
+		SccProjectName3 = PKW.App
+		SccLocalPath3 = PKW.App
+		SccProjectUniqueName4 = PKW.ControlCenter\\PKW.ControlCenter.csproj
+		SccProjectName4 = PKW.ControlCenter
+		SccLocalPath4 = PKW.ControlCenter
+		SccProjectUniqueName5 = VotingService.Test\\PKW.ControlCenter.UnitTests.csproj
+		SccProjectName5 = VotingService.Test
+		SccLocalPath5 = VotingService.Test
+		SccProjectUniqueName6 = PKW.App.UnitTests\\PKW.App.UnitTests.csproj
+		SccProjectName6 = PKW.App.UnitTests
+		SccLocalPath6 = PKW.App.UnitTests
+		SccProjectUniqueName7 = PKW.App.IntegrationTests\\PKW.App.IntegrationTests.csproj
+		SccProjectName7 = PKW.App.IntegrationTests
+		SccLocalPath7 = PKW.App.IntegrationTests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B897EBB6-E19C-4799-A82B-19B2A4597EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B897EBB6-E19C-4799-A82B-19B2A4597EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B897EBB6-E19C-4799-A82B-19B2A4597EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B897EBB6-E19C-4799-A82B-19B2A4597EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661B6C2F-EEB3-4F2F-82B8-7BD70BB224AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661B6C2F-EEB3-4F2F-82B8-7BD70BB224AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661B6C2F-EEB3-4F2F-82B8-7BD70BB224AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661B6C2F-EEB3-4F2F-82B8-7BD70BB224AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77306654-ABF7-49B1-9098-C926A307BF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77306654-ABF7-49B1-9098-C926A307BF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77306654-ABF7-49B1-9098-C926A307BF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77306654-ABF7-49B1-9098-C926A307BF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87F59E5-FE03-417F-8452-A0A66A085D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87F59E5-FE03-417F-8452-A0A66A085D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87F59E5-FE03-417F-8452-A0A66A085D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87F59E5-FE03-417F-8452-A0A66A085D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B30439-2226-4AEC-8085-FDD17E3404C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B30439-2226-4AEC-8085-FDD17E3404C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B30439-2226-4AEC-8085-FDD17E3404C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B30439-2226-4AEC-8085-FDD17E3404C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A22B42-CD32-42AF-A157-EE983A3EB5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A22B42-CD32-42AF-A157-EE983A3EB5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A22B42-CD32-42AF-A157-EE983A3EB5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A22B42-CD32-42AF-A157-EE983A3EB5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3AD2C6-BAA9-43DD-9617-3B671D5259DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3AD2C6-BAA9-43DD-9617-3B671D5259DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3AD2C6-BAA9-43DD-9617-3B671D5259DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3AD2C6-BAA9-43DD-9617-3B671D5259DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
